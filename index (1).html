@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raj Marketing Mysore - Mosquito Nets</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Raj Marketing Mysore</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <button id="loginBtn" class="login-btn">Customer Login</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to Raj Marketing Mysore</h1>
+      <p>Your trusted provider of premium mosquito nets for windows and doors in Mysore.<br>
+        Protect your family from mosquitoes and enjoy fresh air with our high-quality solutions.</p>
+    </section>
+    <section class="features">
+      <div class="feature">
+        <h2>Custom-Fit Mosquito Nets</h2>
+        <p>We offer tailor-made mosquito nets that fit perfectly on your windows and doors, ensuring maximum protection and effortless installation.</p>
+      </div>
+      <div class="feature">
+        <h2>Durable & Aesthetic</h2>
+        <p>Our nets are durable, easy to maintain, and designed to blend seamlessly with your home decor.</p>
+      </div>
+      <div class="feature">
+        <h2>Professional Service</h2>
+        <p>With years of experience, we ensure prompt installation and customer satisfaction for every order.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© 2025 Raj Marketing Mysore. All rights reserved.</div>
+  </footer>
+
+  <!-- Customer Login Modal -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Customer Login</h2>
+      <form id="loginForm" autocomplete="off">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+        <div id="loginMsg"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
